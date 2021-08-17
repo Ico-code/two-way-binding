@@ -1,0 +1,52 @@
+h1{
+    color: blue
+}
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+div input{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    max-width: 95%;
+}
+.my-dream-app1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.styled-para{
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+}
+article div{
+    min-height: 600px;
+}
+
+@media screen and (max-width:426px){
+    article{
+        flex-direction: column;
+    }
+    div{
+        max-width: 100%;
+        padding: 0px;
+    }
+}
